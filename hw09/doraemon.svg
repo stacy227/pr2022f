@@ -7,6 +7,54 @@
   <image href="./character_1.png" height="512" width="512" />
   <rect width="512" height="512" stroke="red" fill="rgba(255,255,255,0.95)" opacity="0.95" ></rect>
 
+  <circle cx="260" cy="116" r="24" stroke-width="5" stroke="black" fill="red"/>
+  <!-- 藍色外圍 -->
+  <ellipse stroke="#0044BB" stroke-width="8" cx="256" cy="250" rx="250" ry="245" fill="none"/>
+
+  <!-- 橢圓 -->
+  <ellipse fill="#FFFFFF" stroke="#00f9" stroke-width="5" cx="266" cy="182" rx="180" ry="180"/>
+
+  <!-- 頭部眼睛 -->
+  <ellipse fill="#FFFFFF" stroke="#000000" stroke-width="4" cx="230" cy="60" rx="36" ry="45"/>
+  <ellipse fill="#000000" stroke="#000000" stroke-width="4" cx="242" cy="60" rx="12" ry="15"/>
+  <ellipse fill="#FFFFFF" stroke="#000000" stroke-width="4" cx="242" cy="60" rx="8" ry="9"/>
+  <ellipse fill="#FFFFFF" stroke="#000000" stroke-width="4" cx="305" cy="60" rx="36" ry="45"/>
+  <ellipse fill="#000000" stroke="#000000" stroke-width="4" cx="294" cy="60" rx="12" ry="15"/>
+  <ellipse fill="#FFFFFF" stroke="#000000" stroke-width="4" cx="292" cy="60" rx="8" ry="9"/>
+  <circle fill="#FF4343" stroke="#000000" stroke-width="5" cx="265" cy="115" r="25"/>
+  <circle fill="#FFFFFF" stroke="#000000" stroke-width="3" cx="45" cy="245" r="42"/>
+  <path d="M265 192 V137" stroke="black" stroke-width="4"/>
+  <!-- 左鬍鬚 -->
+  <path d="M220 156 H126" stroke="black" stroke-width="4"/>
+  <path d="M223 135 L130 109" stroke="black" stroke-width="4"/>
+  <path d="M223 177 L130 192" stroke="black" stroke-width="4"/>
+  <!-- 右鬍鬚 -->
+  <path d="M310 154 H410" stroke="black" stroke-width="4"/>
+  <path d="M306 135 L398 109" stroke="black" stroke-width="4"/>
+  <path d="M308 177 L406 190" stroke="black" stroke-width="4"/>
+  <!-- 嘴巴 -->
+  
+  <!-- 紅色領子 -->
+
+  <!-- 肚子 百寶袋 -->
+  <ellipse stroke="#000000" stroke-width="4" cx="266" cy="425" rx="100" ry="70" fill="none"/>
+  <path d="M182 416 H350" stroke="black" stroke-width="4"/>
+
+  <!-- 肚子 鈴鐺 -->
+  <circle fill="#FF3" stroke="#000000" stroke-width="4" cx="265" cy="384" r="30"/>
+  <path d="M236 378 H295" stroke="black" stroke-width="4"/>
+  <path d="M234 388 H297" stroke="black" stroke-width="4"/>
+  <ellipse stroke="#000000" stroke-width="3" cx="265" cy="382" rx="3" ry="3" fill="none"/>
+
+  <!-- 左側身體 -->
+  <path d="M135 373 V460" stroke="black" stroke-width="3"/>
+  <path d="M134 376 L48 287" stroke="black" stroke-width="3"/>
+  <path d="M110 267 L85 256" stroke="black" stroke-width="3"/>
+  <!-- 右側身體 -->
+  <path d="M395 410 V450" stroke="black" stroke-width="3"/>
+  <path d="M448 384 L397 339" stroke="black" stroke-width="3"/>
+  <path d="M430 418 L399 410" stroke="black" stroke-width="3"/>
+
   <!-- 座標線 -->
   <text x="2" y="12" font-size="12" text-anchor="start" fill="red">0</text>
   <path d="M256  64 H0 H512" stroke="lightgray" fill="white"></path>
@@ -44,9 +92,6 @@
   <!-- 中心十字標 -->
   <path d="M256 256 V270 V242 M256 256 H270 H242" stroke="black" fill="white"></path>
   <text x="254" y="250" font-size="16" text-anchor="middle" fill="red">(256, 256)</text>
-
-  <!-- 橢圓 -->
-  <ellipse fill="#00f1" stroke="#00f9" stroke-width="5" cx="266" cy="182" rx="180" ry="180"/>
 
 </svg>
 
